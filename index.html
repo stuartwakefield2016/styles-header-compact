@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Demo for header styles</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0"/>
+    <link rel="stylesheet" href="bower_components/stuartwakefield2016-styles-base/base.css"/>
+    <link rel="stylesheet" href="bower_components/stuartwakefield2016-styles-access/access.css"/>
+    <link rel="stylesheet" href="bower_components/stuartwakefield2016-styles-avatar/avatar.css"/>
+    <link rel="stylesheet" href="bower_components/stuartwakefield2016-styles-network-links/network-links.css"/>
+    <link rel="stylesheet" href="bower_components/stuartwakefield2016-styles-header/header.css"/>
+    <link rel="stylesheet" href="header-compact.css"/>
+  </head>
+  <body vocab="http://schema.org/" typeof="Person" class="fixed-header">
+    <div class="header">
+
+      <div class="avatar">
+        <img
+          src="https://www.gravatar.com/avatar/99fd735651b3659ec6f2ffa524e9f3d4?s=200"
+          srcset="
+            https://www.gravatar.com/avatar/99fd735651b3659ec6f2ffa524e9f3d4?s=100 100w,
+            https://www.gravatar.com/avatar/99fd735651b3659ec6f2ffa524e9f3d4?s=200 200w,
+            https://www.gravatar.com/avatar/99fd735651b3659ec6f2ffa524e9f3d4?s=1000 1000w"
+          sizes="5em"/>
+      </div>
+
+      <h1 property="name">Stuart Wakefield</h1>
+
+      <p class="access">Find me on:
+      <ul class="network-links">
+
+        <li class="twitter-network-link">
+          <a property="sameAs" href="https://twitter.com/stuartwio" title="@stuartwio">
+            <span class="access">Twitter</span>
+          </a>
+
+        <li class="github-network-link">
+          <a property="sameAs" href="https://github.com/stuartwakefield" title="stuartwakefield">
+            <span class="access">GitHub</span>
+          </a>
+
+        <li class="stackoverflow-network-link">
+          <a property="sameAs" href="https://stackoverflow.com/users/459516/stuart-wakefield">
+            <span class="access">Stack Overflow</span>
+          </a>
+
+        <li class="linkedin-network-link">
+          <a property="sameAs" href="https://linkedin.com/in/stuartwakefieldwebdeveloper" title="stuartwakefieldwebdeveloper">
+            <span class="access">LinkedIn</span>
+          </a>
+
+        <li class="instagram-network-link">
+          <a property="sameAs" href="https://www.instagram.com/stuartwakefield84" title="stuartwakefield84">
+            <span class="access">Instagram</span>
+          </a>
+
+        <li class="soundcloud-network-link">
+          <a property="sameAs" href="https://soundcloud.com/stuart-wakefield-uk" title="stuart-wakefield-uk">
+            <span class="access">SoundCloud</span>
+          </a>
+
+        <li class="blog-network-link" typeof="Blog">
+          <a property="url" href="http://stuartw.io" title="stuartw.io">
+            <span class="access">My Blog</span>
+          </a>
+
+        <li class="web-network-link">
+          <a property="url" href="http://stuartwakefield.co.uk" title="stuartwakefield.co.uk">
+            <span class="access">My Website</span>
+          </a>
+
+        <li class="gplus-network-link">
+          <a property="sameAs" href="https://plus.google.com/u/0/105620785565675144505?rel=author">
+            <span class="access">Google+</span>
+          </a>
+
+        <li class="email-network-link">
+          <a property="sameAs">
+            <span class="access">Email</span>
+          </a>
+
+        <li class="phone-network-link">
+          <a property="sameAs">
+            <span class="access">Phone</span>
+          </a>
+
+      </ul>
+
+      <p property="address" typeof="PostalAddress">
+        <span property="addressLocality">St. Albans</span>,
+        <span property="addressRegion">Hertfordshire</span>,
+        <span property="addressCountry">UK</span>.
+
+      <p property="description">
+        I'm the <strong property="jobTitle">Company Director</strong> and a
+        <strong property="jobTitle">Full-Stack Developer / Software Engineer</strong> at
+        <strong property="brand">Superwatermelon</strong>.
+
+    </div>
+  </body>
+</html>

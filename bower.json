@@ -1,0 +1,28 @@
+{
+  "name": "stuartwakefield2016-styles-header-compact",
+  "authors": [
+    "Stuart Wakefield <me@stuartwakefield.co.uk>"
+  ],
+  "description": "The styling for the header for the Stuart Wakefield 2016 website.",
+  "main": "header-compact.css",
+  "moduleType": [],
+  "keywords": [
+    "css"
+  ],
+  "license": "MIT",
+  "homepage": "http://stuartwakefield.co.uk",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "stuartwakefield2016-styles-base": "~0.1.0",
+    "stuartwakefield2016-styles-access": "~0.1.0",
+    "stuartwakefield2016-styles-avatar": "~0.1.0",
+    "stuartwakefield2016-styles-network-links": "~0.1.0",
+    "stuartwakefield2016-styles-header": "~0.1.0"
+  }
+}
