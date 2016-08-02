@@ -34,6 +34,7 @@
 
 .header p[property=address],
 .header p[property=description] {
+  max-width: 30em;
   clear: left;
   text-align: left;
   margin-left: 0;
