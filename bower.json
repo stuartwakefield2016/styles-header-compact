@@ -3,7 +3,7 @@
   "authors": [
     "Stuart Wakefield <me@stuartwakefield.co.uk>"
   ],
-  "description": "The styling for the header for the Stuart Wakefield 2016 website.",
+  "description": "The styling for the compact version of the header for the Stuart Wakefield 2016 website.",
   "main": "header-compact.css",
   "moduleType": [],
   "keywords": [
@@ -23,6 +23,6 @@
     "stuartwakefield2016-styles-access": "~0.1.0",
     "stuartwakefield2016-styles-avatar": "~0.1.0",
     "stuartwakefield2016-styles-network-links": "~0.1.0",
-    "stuartwakefield2016-styles-header": "~0.1.0"
+    "stuartwakefield2016-styles-header": "~0.1.1"
   }
 }

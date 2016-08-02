@@ -27,6 +27,7 @@
 .header .network-links {
   float: right;
   margin: 0.5em auto;
+  margin-left: 2em;
   padding: 0;
   max-width: 7em;
 }
@@ -34,6 +35,7 @@
 .header p[property=address],
 .header p[property=description] {
   clear: left;
-  margin: 2em 0;
   text-align: left;
+  margin-left: 0;
+  margin-right: 0;
 }
